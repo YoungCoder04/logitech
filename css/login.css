@@ -1,0 +1,67 @@
+main{
+  background:#000;
+  overflow:hidden;
+  height:617px;
+}
+footer{
+  height:200px;
+  overflow:hidden;
+}
+footer .inner{
+  height:200px;
+}
+.login{
+  width:550px;height:600px;
+  margin:80px auto;
+}
+.login h2{display:none;}
+.login fieldset{
+  width:550px;height:600px;
+  border:none;
+}
+.login fieldset img{
+  width:230px;
+  transform:translateX(70%);
+}
+.login fieldset legend{
+  text-align:center;
+  display:none;
+}
+.login input{
+  background:#000;
+  border:none;
+  border-bottom:solid 2px #676767;
+  transition:0.3s;
+}
+.login input:focus{outline:none;}
+.login fieldset a{
+  text-decoration:none;
+  color:#fff;
+  display:block;
+  text-align:right;
+  margin-top:30px;
+}
+.id{
+  margin-top:70px;
+}
+.id, .pw{
+  width:550px;height:50px;
+  margin-bottom:10px;
+  font-size: 14px;
+  color:#fff;
+  border-bottom:solid 2px #676767;
+}
+.id:focus, .pw:focus{
+  border:none;
+  border-bottom:solid 2px #00B8FC;
+}
+#btn01{
+  background:#00B8FC;
+  color:#000;
+  border:none;
+  display:block;
+  margin:15px auto 0px auto;
+  width:560px;height:50px;
+  font-size:14px;
+  cursor:pointer;
+}

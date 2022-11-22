@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인 페이지 만들기 연습</title>
+  <style>
+  body{
+    background:#000;
+  }
+  .login{
+    width:550px;height:600px;
+    margin:0px auto;
+  }
+  .login h2{display:none;}
+  .login fieldset{
+    width:550px;height:600px;
+    border:none;
+  }
+  .login fieldset img{
+    width:230px;
+    transform:translateX(50%);
+  }
+  .login fieldset legend{
+    text-align:center;
+    display:none;
+  }
+  .login input{
+    background:#000;
+    border:none;
+    border-bottom:solid 2px #676767;
+    transition:0.3s;
+  }
+  .login input:focus{outline:none;}
+  .login fieldset a{
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    text-align:right;
+    margin-top:30px;
+  }
+  .id{
+    margin-top:70px;
+  }
+  .id, .pw{
+    width:550px;height:50px;
+    margin-bottom:10px;
+    font-size: 25px;
+    color:#fff;
+    border-bottom:solid 2px #676767;
+  }
+  .id:focus, .pw:focus{
+    border:none;
+    border-bottom:solid 2px #00B8FC;
+  }
+  #btn01{
+    background:#00B8FC;
+    color:#000;
+    border:none;
+    display:block;
+    margin:15px auto 0px auto;
+    width:560px;height:50px;
+    font-size:25px;
+  }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="login">
+      <h2>로그인 페이지</h2>
+      <fieldset>
+        <img src="./images/h_logo1.png" alt="">
+        <legend>로그인</legend>
+        <input type="email" class="id" placeholder="이메일 주소">
+        <input type="password" class="pw" placeholder="암호">
+        <a href="javascript:void(0)">암호를 잊으셨습니까?</a>
+        <input type="button" name="로그인" value="로그인" id="btn01">
+      </fieldset>
+    </section>
+  </main>
+</body>
+</html>
